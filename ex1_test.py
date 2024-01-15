@@ -1,8 +1,5 @@
 import write_your_name as name_point
 
 def test_hi_my_name_is_kareem():
-    assert len(name_point.hi_my_name_is_kareem()) > 1
+    assert len(name_point.hi_my_name_is_kareem())  > 1 
 
-
-if __name__ == "__main__":
-    test_hi_my_name_is_kareem()
